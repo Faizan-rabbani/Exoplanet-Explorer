@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Exoplanet Explorer</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.4.1/papaparse.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.19.0/axios.min.js"></script>
+</head>
+<body>
+  <h1>Exoplanet Explorer</h1>
+
+  <div>
+    <input type="text" class="search" placeholder="Search planet/star">
+    <button class="dark-toggle">Dark Mode</button>
+  </div>
+
+  <table>
+    <thead>
+      <tr>
+        <th data-sort="pl_name">Planet</th>
+        <th data-sort="hostname">Star</th>
+        <th data-sort="disc_year">Year</th>
+        <th data-sort="discoverymethod">Method</th>
+        <th data-sort="pl_rade">Radius (R)</th>
+        <th data-sort="pl_bmasse">Mass (M)</th>
+        <th data-sort="pl_orbper">Orbital Period (d)</th>
+        <th data-sort="st_teff">Star Temp (K)</th>
+        <th data-sort="st_dist">Distance (pc)</th>
+      </tr>
+    </thead>
+    <tbody></tbody>
+  </table>
+
+  <div class="pagination">
+    <button class="prev">Prev</button>
+    <span class="page-info"></span>
+    <button class="next">Next</button>
+  </div>
+
+  <div class="detail hidden">
+    <button class="close-detail">Close</button>
+    <div class="detail-content"></div>
+  </div>
+  <script src="index.js"></script>
+</body>
+</html>
+
