@@ -34,7 +34,7 @@ The project uses CSV data from the official NASA API, parsed with **PapaParse**,
 
 - **HTML5** – Structure of the app.
 - **CSS3** – Styling and layout.
-- **JavaScript (Vanilla)** – Core functionality.
+- **JavaScript** – Core functionality.
 - **PapaParse** – CSV parsing.
 - **NASA Exoplanet Archive API** – Data source.
 
