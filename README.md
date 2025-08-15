@@ -54,7 +54,7 @@ For CORS handling, it uses a proxy such as [corsfix.com](https://corsfix.com).
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/faizan_Rabbani/exoplanet-explorer.git
+   git clone https://github.com/Faizan_rabbani/exoplanet-explorer.git
 
 2. Open index.html in your browser.
 
